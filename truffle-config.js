@@ -6,9 +6,9 @@ module.exports = {
     // to customize your Truffle configuration!
     networks: {
         development: {
-            host: "127.0.0.1", // Localhost (default: none)
+            host: "https://sandbox.truffleteams.com/69b17d6c-81ec-4f61-a40e-d8c984e472da", // Localhost (default: none)
             port: 8545, // Standard Ethereum port (default: none)
-            network_id: "*" // Any network (default: none)
+            network_id: "101" // Any network (default: none)
         }
     },
     compilers: {
